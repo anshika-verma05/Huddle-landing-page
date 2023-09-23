@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+ 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding-top: 3rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.try-button {
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0px 3px 16px rgba(0,0,0,0.12);
+    text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.try-button:active {
+   color: hsl(208, 11%, 55%);
+   cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.build-heading {
+  font-size: 3rem;
+  color: hsl(192, 100%, 9%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.build-text{
+    font-size: 1rem;
+    color:  hsl(192, 100%, 9%);
+    padding-top: 1.5rem;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.illustration-mockups {
+ width: 850px;
+ height: 600px;
+ margin-top: 4rem;
+}
+
+.free-button {
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0px 3px 16px rgba(0,0,0,0.12);
+    color: white;
+    border: none;
+    width: 270px;
+    height: 60px;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 16.5px;
+}
+
+.free-button:active {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.card {
+  height: 480px;
+  width: 1180px;
+  background-color: blanchedalmond;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: white;
+  box-shadow: 0px 3px 16px rgba(0,0,0,0.12);
+  border-radius: 1rem;
+  padding-left: 10rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  margin-left:2rem;
+}
+
+.right {
+    float: right;
+    
+}
+
+
+.left {
+    float: left;
+    margin-right: 10rem;
+}
+
+.card-heading {
+  color:hsl(192, 100%, 9%) ;
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10rem;
+  
+}
+
+
+.card-text {
+    color: hsl(208, 11%, 55%);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+main {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-size: 18px;
+    height: 100%;
+    padding-top: 12rem;
+    padding-left: 10rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    place-items: left;
+    width: 1000px;
+    padding-top: 3rem;
+  
+}
+
+ul li{
+  text-decoration:none;
+  color:hsl(194, 16%, 79%);
+  list-style-type: none;  
+  margin-bottom: 1.5rem;
+
+}
+
+.float {
+    float: left;
+    margin-right: 1rem;
+}
+
+.copy {
+    color:hsl(194, 16%, 79%);
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+    padding-right: 3rem;
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+.community {
+    background-color: white;
+    box-shadow: 0px 3px 16px rgba(0,0,0,0.12);
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:hsl(192, 100%, 9%);
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    margin-bottom:-180px;
+    position: absolute;
+    z-index: 1;
+}
+
+.community-heading{
+    padding-top: 4rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.get-button {
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0px 3px 16px rgba(0,0,0,0.12);
+    color: white;
+    border: none;
+    width: 400px;
+    height: 65px;
+    border-radius: 3rem;
+    font-size: 18px;
+    margin-top: 2.5rem;
+}
+
+.get-button:active {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media(max-width:600px) {
+    html {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    body {
+        max-width: 600px;
+        padding: 0;
+        margin: 0;
+       
+    }
+
+    header{
+        padding: 0;
+        margin: 0;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        place-items: center;
+        margin-bottom: 7rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .illustration-mockups {
+       width: 500px;
+       height: 400px;
+    }
+
+    .main-center {
+        text-align: center;
+    }
+
+    .build-text{
+        line-height: 1.5;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        height: 650px;
+        text-align: center;
+        padding: 2rem;
+        padding-left: 3rem;
+        padding-top: 4rem;
+        margin:auto;
+        margin-bottom: 4rem;
+    }
+
+    .card-text{
+        margin: 0;
+        padding: 0;
+        padding-top: 2rem;
+        text-align: center;
+        max-width: 60ch;
+        font-size: 18px;
+    }
+
+    .card-heading{
+        padding-top: 4rem;
+    }
+
+    .card-img {
+       width: 400px;
+       height: 300px;
+    }
+
+    .community {
+        max-width: 550px;
+        padding: 0;
+    }
+
+    
+
+    footer {
+        max-width: 600px;
+        background-color: hsl(192, 100%, 9%);
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        padding-top: 15rem;
+        padding-left: 2rem;
+    }
+
+    .brand-icons {
+        padding-left: 11rem;
+        margin-top: 2rem;
+    }
+
+    .block {
+        display: inline-block;
+        max-width: 600px;
+       
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
+
+    .width {
+        max-width: 600px;
+    }
+
+    .copy {
+        text-align: center;
+       margin-right: 8rem;
+       margin-top: 2rem;
+       padding-bottom: 2rem;
+    }
+
+    ul {
+        display: inline-block;
+    }
+}
